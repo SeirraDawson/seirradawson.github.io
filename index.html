@@ -1,42 +1,77 @@
-<!-- CSS Stylesheets With Relative Paths -->
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>CSS Stylesheets With Relative Paths</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-  <!-- This line is money! It points your HTML to the CSS file. -->
-  <link rel="stylesheet" type="text/css" href="/assets/style.css">
-  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+<title>Bootstrap About | Seirra Dawson</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Sura" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
-  <header>
-    <h1>Student Bio</h1>
-  </header>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+            <a class="navbar-brand" href="#">Seirra Dawson</a>
+            </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html"></span>About</a></li>
+            <li><a href="portfolio.html"></span>Portfolio</a></li>
+            <li><a href="contact.html"></span>Contact</a></li>
+        </ul>
+        </div>
+    </nav>
+        <div class="container">
+            <div class="page-header">
+                <h1>About Me</h1>
+            </div>
 
-  <div class="container">
+            <div class="row">
+                <div class="col-sm-10">
+                    <div class="media-left">
+                        <a href="#">
+                        <img class="media-object" src="https://imgplaceholder.com/420x320/ff7f7f/333333/fa-image
+                            " alt="Sample image">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <p>Seirra Dawson is a HR Analyst for Hearst Television in Charlotte, NC.
+                        After receiving a B.A. in Business Management, she went into the US Army
+                        and commissioned as an officer.
+                        </p>
 
-    <section id="main-bio">
+                        <p>Prior to moving to Charlotte, she worked in the Middle East and Africa
+                        as a government contractor. In her free time, she enjoys visiting countries
+                        abroad. She has visited 4 out of the 7 continents. She also enjoys
+                        the UNCC Coding boot camp course.
+                        </p>
+                    </div>
+                <div class="col-sm-2">
+                    <div class="fixed-sidebar">
+                        <div class="well">
+                            <h3>Connect with Me</h3>
+                            <div class="icons">
+                                <img src="assets/imgs/logo_facebook.png" class="social" alt="Facebook">
+                                <img src="assets/imgs/logo_likedin.png" class="social" alt="LinkedIn">
+                                <img src="assets/imgs/logo_github.png" class="social" alt="Github">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-      <h2>Your Name</h2>
 
-      <img id="bio-image" src="https://placehold.it/200x200" alt="Your Name">
-
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-    </section>
-
-    <section id="contact-info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </section>
-  </div>
+    <footer class="container-fluid text-center">
+            Copyright © Seirra Dawson
+    </footer>
 
 </body>
-
 </html>
